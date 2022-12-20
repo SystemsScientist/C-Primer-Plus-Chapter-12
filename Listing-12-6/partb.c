@@ -2,14 +2,14 @@
 
 #include <stdio.h>
 
-extern int count;
-static int total = 0;
+extern int count; 	// reference declaration, external linkage
+static int total = 0; 	// static definition, internal linkage
 
-void accumulate(int k);
+void accumulate(int k);	// prototype function
 
-void accumulate(int k) {
+void accumulate(int k) {	 // k has block scope, no linkage
 
-	static int subtotal = 0;
+	static int subtotal = 0; // static, no linkage
 
 	if (k <= 0) {
 
