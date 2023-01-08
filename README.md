@@ -1,8 +1,17 @@
 # C Primer Plus - Chapter 12 Exercises and Solutions
 
 This repository contains the Listings, Exercises, and Solutions for Chapter 12
-of C Primer Plus, 5th edition, by Stephen Prata, which covers Storage Classes,
-Linkage, and Memory Management.
+of C Primer Plus, 5th edition, by Stephen Prata, which covers the following 
+topics:
+
+    (1) keywords: auto, extern, static, register, const, volatile, 
+        and restricted
+    (2) functions: rand(), srand(), time(), malloc(), calloc(), and
+        free()
+    (3) how C allows you to determine the scope of a variable (how
+        widely known it is) and the life-time of a variable (how long
+        it remains in existence)
+    (4) designing more complex programs
 
 I created this repository for two reasons. First, I wanted to incorporate Git
 and GitHub into my workflow, so I could give myself an opportunity to practice
